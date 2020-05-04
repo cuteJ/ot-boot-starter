@@ -56,7 +56,7 @@
         <groupId>com.github.danielflower.mavenplugins</groupId>
         <artifactId>multi-module-maven-release-plugin</artifactId>
         <configuration>
-          <modulesToRelease>app-oss-starter</modulesToRelease>
+          <modulesToRelease>app-oss-starter,lettuce-redis-starter</modulesToRelease>
         </configuration>
       </plugin>
       <plugin>
