@@ -13,13 +13,13 @@
 
 ````
     <dependency>
-      <groupId>com.onlythinking</groupId>
+      <groupId>com.onlythinking.starter</groupId>
       <artifactId>lettuce-redis-starter</artifactId>
       <version>1.0.0</version>
     </dependency>
 
     <dependency>
-      <groupId>com.onlythinking</groupId>
+      <groupId>com.onlythinking.starter</groupId>
       <artifactId>app-oss-starter</artifactId>
       <version>1.0.0</version>
     </dependency>
