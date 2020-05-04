@@ -1,0 +1,16 @@
+META-INF/spring-configuration-metadata.json
+com/onlythinking/starter/oss/client/AliyunAppOssClient.class
+com/onlythinking/starter/oss/client/HuaweiAppOssClient.class
+com/onlythinking/starter/oss/client/AppOssClient.class
+com/onlythinking/starter/oss/properties/OssProperties.class
+com/onlythinking/starter/oss/client/model/UploadFileRs.class
+com/onlythinking/starter/oss/client/OssType.class
+com/onlythinking/starter/oss/OssAutoConfiguration$HuaweiConfiguration.class
+com/onlythinking/starter/oss/client/model/AccessControl.class
+com/onlythinking/starter/oss/OssAutoConfiguration$AliyunConfiguration.class
+com/onlythinking/starter/oss/client/model/PutObjectRs.class
+com/onlythinking/starter/oss/properties/OssProperties$ClientProperties.class
+com/onlythinking/starter/oss/OssAutoConfiguration.class
+com/onlythinking/starter/oss/client/HuaweiAppOssClient$1.class
+com/onlythinking/starter/oss/client/model/UploadFileRq.class
+com/onlythinking/starter/oss/client/model/BucketRequest.class

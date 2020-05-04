@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.onlythinking</groupId>
+    <artifactId>ot-server-parent</artifactId>
+    <version>1.0</version>
+  </parent>
+
+  <groupId>com.onlythinking.starter</groupId>
+  <artifactId>ot-boot-starter</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>ot-boot-starter</name>
+  <description>Only thinking starter</description>
+
+  <properties>
+    <finalName>${project.artifactId}-${project.version}</finalName>
+  </properties>
+
+  <scm>
+    <connection>scm:git:https://github.com/cuteJ/ot-boot-starter.git</connection>
+    <developerConnection>scm:git:https://github.com/cuteJ/ot-boot-starter.git</developerConnection>
+    <url>https://github.com/cuteJ/ot-boot-starter</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/cuteJ/ot-server-parent</url>
+    </repository>
+  </distributionManagement>
+
+  <modules>
+    <module>lettuce-redis-starter</module>
+    <module>app-oss-starter</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${finalName}</finalName>
+    <plugins>
+      <plugin>
+        <groupId>com.github.danielflower.mavenplugins</groupId>
+        <artifactId>multi-module-maven-release-plugin</artifactId>
+        <configuration>
+          <modulesToRelease>app-oss-starter</modulesToRelease>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>default-deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

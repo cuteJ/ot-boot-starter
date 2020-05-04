@@ -1,0 +1,78 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss",
+      "type": "com.onlythinking.starter.oss.properties.OssProperties"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.client",
+      "type": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.access-key-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": -1,
+      "name": "app.oss.client.connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": 0,
+      "name": "app.oss.client.idle-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": 1024,
+      "name": "app.oss.client.max-connections",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": 3,
+      "name": "app.oss.client.max-retry",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": 0,
+      "name": "app.oss.client.request-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties$ClientProperties",
+      "defaultValue": 0,
+      "name": "app.oss.client.socket-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.default-bucket",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.domain-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.endpoint",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.onlythinking.starter.oss.properties.OssProperties",
+      "name": "app.oss.secret-access-key",
+      "type": "java.lang.String"
+    }
+  ]
+}

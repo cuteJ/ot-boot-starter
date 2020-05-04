@@ -1,0 +1,11 @@
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/AliyunAppOssClient.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/properties/OssProperties.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/model/UploadFileRs.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/model/AccessControl.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/OssAutoConfiguration.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/OssType.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/model/PutObjectRs.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/model/UploadFileRq.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/model/BucketRequest.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/AppOssClient.java
+/Users/lixingping/IdeaProjects/onlythinking/public/ot-parent/ot-boot-starter/app-oss-starter/src/main/java/com/onlythinking/starter/oss/client/HuaweiAppOssClient.java
