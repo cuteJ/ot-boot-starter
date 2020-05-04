@@ -16,6 +16,13 @@
   <name>lettuce-redis-starter</name>
   <description>Lettuce redis starter</description>
 
+  <scm>
+    <connection>scm:git:https://github.com/cuteJ/ot-boot-starter.git</connection>
+    <developerConnection>scm:git:https://github.com/cuteJ/ot-boot-starter.git</developerConnection>
+    <url>https://github.com/cuteJ/ot-boot-starter</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
   </properties>
 
